@@ -1,4 +1,4 @@
-highlighter: true
+highlighter: pygments
 permalink: /:year/:month/:day/:title
 title: Project Timeline
 baseurl: /timeline

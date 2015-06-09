@@ -2,10 +2,9 @@ highlighter: pygments
 permalink: /:year/:month/:day/:title
 title: Project Timeline
 baseurl: /timeline
+url: http://unibz.github.io/timeline/
 linked_posts: true
 
-# Sets the default folder in Prose.io
-# Sets the default metadata in Prose.io
 prose:
   rooturl: "_posts"
   metadata:

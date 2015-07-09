@@ -3,4 +3,4 @@ layout: post
 title: Setup Pattern Lab
 ---
 
-[View Pattern Lab](http://unibz.github.io/frontend/)
+[View Pattern Lab](http://unibz.github.io/patterns/)

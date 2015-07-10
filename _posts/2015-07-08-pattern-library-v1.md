@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Setup Pattern Lab
+title: Setup Pattern Library
 ---
 
-[View Pattern Lab](http://unibz.github.io/pattern-library/)
+[View current Pattern Library](http://unibz.github.io/pattern-library/)

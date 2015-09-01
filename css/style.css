@@ -20,21 +20,23 @@ header, footer, nav, section, article, hgroup, figure {
 /************End Reset**************/
 /************Global**************/
 body {
-  background: #fff;
-  color: #222222;
-  font: 120%/1.4 "HelveticaNeue", "Helvetica", "Arial", sans-serif;
+  background-color: #007be4;
+  color: #fff;
+  font: 120%/1.4 "ff-din-web", "HelveticaNeue", "Helvetica", "Arial", sans-serif;
   padding: 1em;
-  -webkit-text-size-adjust: 100%; }
+  -webkit-text-size-adjust: 100%; 
+  max-width: 600px;
+  margin: 0 auto;}
   @media all and (min-width: 40em) {
     body {
       padding-left: 2em; } }
 
 a {
-  color: gray;
+  color: #ffffff;
   text-decoration: none; }
 
 a:hover, a:focus {
-  color: #222222;
+  color: #ffffff;
   text-decoration: underline; }
 
 p {
@@ -52,7 +54,7 @@ h1 {
   font-size: 2em;
   line-height: 1;
   letter-spacing: -0.02em;
-  margin-bottom: 0.8em; }
+  margin-bottom: 1.2em; }
 
 h2 {
   text-transform: lowercase;
@@ -70,19 +72,19 @@ h3 {
 /************Timeline**************/
 /* Timeline Container */
 .timeline {
-  border-left: 5px solid #dddddd;
+  border-left: 3px solid #ffffff;
   padding-bottom: 3em;
   position: relative; }
   .timeline:before {
     content: "";
     position: absolute;
     bottom: 0;
-    left: -1.47em;
-    width: 40px;
-    height: 40px;
-    border-radius: 40px;
-    background: #dddddd;
-    border: 5px solid #dddddd; }
+    left: -0.8em;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    background: #ffffff;
+    border: 3px solid #ffffff; }
 
 /* Individual Timeline Item */
 .tl-node {
@@ -95,18 +97,20 @@ h3 {
     content: "";
     position: absolute;
     top: 0;
-    left: -0.95em;
+    left: -0.8em;
     width: 20px;
     height: 20px;
     border-radius: 20px;
-    background: #fff;
-    border: 5px solid #dddddd; }
-  .tl-content a {
-    color: #222222; }
+    background: #007be4;
+    border: 3px solid #ffffff; }
+  .tl-content a, .tl-content {
+    color: #ffffff; 
+    font-size: 1.3em;}
 
 /* Timestamp */
 .tl-stamp {
   font-size: 0.7em;
-  color: gray; }
+  letter-spacing: 0.05em;
+  color: #ffffff; }
 
 /************End Timeline**************/

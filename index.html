@@ -8,7 +8,7 @@ layout: default
 		<li class="tl-node">
 			<div class="tl-stamp">{{ post.date | date_to_string }}</div>
 			{% if site.linked_posts %}
-				<div class="tl-content"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></div>
+				<div class="tl-content">{{ post.title }}</div>
 			{% else %}
 				<div class="tl-content">{{ post.title }}</div>
 			{% endif %}

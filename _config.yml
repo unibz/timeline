@@ -1,6 +1,6 @@
 highlighter: pygments
 permalink: /:year/:month/:day/:title
-title: Project Timeline
+title: Unibz Redesign Timeline
 baseurl: /timeline
 linked_posts: true
 

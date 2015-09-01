@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Presidium presentation
+title: Stakeholders presentation
 ---
 
 [Mobile first wireframes](http://unibz.github.io/wireframes/)

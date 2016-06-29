@@ -1,4 +1,3 @@
-highlighter: pygments
 permalink: /:year/:month/:day/:title
 title: Unibz Redesign Timeline
 baseurl: /timeline

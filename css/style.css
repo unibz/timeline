@@ -39,7 +39,7 @@ a:hover, a:focus {
   text-decoration: underline; }
 
 p {
-  margin: 0 0 1em; }
+  margin: 0; }
 
 img, object, video {
   max-width: 100%;
@@ -90,8 +90,6 @@ h3 {
   padding-left: 1em;
   margin-bottom: 3em;
   position: relative; }
-  .tl-node a {
-    display: block; }
   .tl-node:before {
     content: "";
     position: absolute;
